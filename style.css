@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -28,7 +28,6 @@ body {
     padding: 10px 25px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.46);
 }
 
 .hero img {
@@ -109,7 +108,7 @@ body {
 
 .hero-controls div:hover {
     transform: scale(1.2);
-    box-shadow: 0px 0px 25px 10px rgba(66,110,209,0.8);;
+    box-shadow: 0px 0px 20px 10px rgba(66,110,209,0.8);;
     
 }
 
@@ -119,6 +118,104 @@ body {
 }
 
 .projects {
-    border: 1px solid #000;
     grid-column: 2 / 5;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    background-color: #f1f0f0;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.cards-title {
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.cards-title h3 {
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    border-left: 5px solid #dfbf0b;
+    border-radius: 8px;
+}
+
+.card h4,
+.card p {
+    margin-bottom: 10px;
+}
+
+.cards img {
+    width: 20px;
+    margin: 10px;
+}
+
+.card-icons {
+ float: right;
+}
+
+.ans-trends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.ans-trends h3 {
+    font-size: 1.5rem;
+}
+
+.announcements {
+    display: grid;
+    gap: 30px;
+}
+
+.ann-card {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.ann-card h4,
+.ann-card p {
+    margin-bottom: 5px;
+}
+
+hr {
+ margin: 5px;
+}
+
+.trending-card {
+    display: grid;
+    grid-template-columns: 70px 2fr;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.trending h3 {
+    margin-top: 20px;
+}
+
+.trending {
+    display: grid;
+    gap: 30px;
+}
+
+.person-photo {
+    height: 50px;
+    width: 50px;
+    background-color: #e7e7e7;
+    border-radius: 50%;
 }
