@@ -5,3 +5,11 @@ This is a simple admin dashboard project. I built this to help me practice CSS l
 # Tech used
 - HTML
 - CSS
+
+# Credit
+I do not own any of the photos used in this project. Credit to the owners. All pictures were downloaded from https://pexels.com
+- Nami profile photo - Dina Adel 
+- Chopper profile photo - Kristina Paukshtite 
+- Sanji profile photo - Rene Terp 
+- zoro profile photo - Azis Js 
+- Luffy profile photo - Jude Stevens
