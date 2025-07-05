@@ -23,9 +23,99 @@ body {
 }
 
 .hero {
-    border: 1px solid #000;
     grid-column: 2 / 5;
     grid-row: 1 / 1;
+    padding: 10px 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0px 5px 3px 0px rgba(0,0,0,0.46);
+}
+
+.hero img {
+    width: 20px;
+}
+
+#search-bar {
+    border-radius: 20px;
+    border: 1px solid #e7e7e7;
+    background-color: #e7e7e7;
+    width: 100%;
+    height: 40%;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+#search-bar:focus {
+    outline: none;
+}
+
+.hero-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+}
+
+.hero-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.hero-profile p {
+    margin-right: 20px;
+}
+
+.hero-greeting {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.pro-photo {
+    height: 80px;
+    width: 80px;
+    background-color: #e7e7e7;
+    border-radius: 50%;
+}
+
+.hero-controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.hero-controls div {
+    margin-right: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #6969f5;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 
+        transform 0.5s ease,
+        box-shadow 0.5s ease;
+}
+
+.hero-controls div:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 10px rgba(66,110,209,0.8);;
+    
+}
+
+.admin-name p + p {
+    font-weight: 550;
+    font-size: 1.2rem;
 }
 
 .projects {
